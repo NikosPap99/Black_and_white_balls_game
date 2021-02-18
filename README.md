@@ -11,14 +11,14 @@ A good example of a starting situation and the steps the computer takes to solve
 
 Initial situation : W W _ B B
 
-W W _ B B g(n) : 0 h(n) : 0 ->
-W W B _ B g(n) : 1 h(n) : 9 ->
-W _ B W B g(n) : 3 h(n) : 7 ->
-_ W B W B g(n) : 4 h(n) : 6 ->
-B W _ W B g(n) : 6 h(n) : 4 ->
-B W B W _ g(n) : 8 h(n) : 2 ->
-B W B _ W g(n) : 9 h(n) : 2 ->
-B _ B W W g(n) : 11 h(n) : 0 ->
+1. W W _ B B g(n) : 0 h(n) : 0 ->
+2. W W B _ B g(n) : 1 h(n) : 9 ->
+3. W _ B W B g(n) : 3 h(n) : 7 ->
+4. _ W B W B g(n) : 4 h(n) : 6 ->
+5. B W _ W B g(n) : 6 h(n) : 4 ->
+6. B W B W _ g(n) : 8 h(n) : 2 ->
+7. B W B _ W g(n) : 9 h(n) : 2 ->
+8. B _ B W W g(n) : 11 h(n) : 0 ->
 Done!
 
 ## UCS, A-Star algorithms
